@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+ul li{
+    list-style: none;
+}
+
+nav{
+    padding: 1rem 0rem;
+    height: 10vh;
+    font-family: 'Ubuntu', sans-serif;
+    gap: 2.5rem;
+}
+
+.nav-items{
+    gap: 2rem;
+}
+
+.top-left{
+    width: 50%;
+}
+
+.top-right{
+    width: 50%;
+}
+.dumbell{
+    width: 20rem;
+}
+.section-1{
+    padding: 2rem;
+    max-height: 200vh;
+}
+
+.gym{
+    width: 35rem;
+}
+
+.section-1 h1{
+    color: rgb(227, 74, 56);
+    font-size: 2.5rem;
+}
+
+.section-2 h1{
+    color: rgb(227, 74, 56);
+    font-size: 2.5rem;
+}
+
+.section-2{
+    padding: 4rem;
+}
+
+.section-2 p{
+    padding: 0 8vw;
+    text-align: justify;
+}
+.boxes{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin: 1rem 1.5rem;
+    width: 20rem;
+    border: 2px solid rgb(227, 74, 56);
+    text-align: center;
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+.box h2{
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+.box ul{
+    list-style: none;
+}
+
+.box ul li{
+    margin: 1rem 2px;
+}
+
+.section-3{
+    padding: 4rem;
+}
+
+.section-3 h1{
+    color: rgb(227, 74, 56);
+    font-size: 2.5rem;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    padding: 2rem;
+    color: rgb(227, 74, 56);
+}
+.deal-container{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.deal{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+#demo{
+    color: rgb(227, 74, 56);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-gap{
+    gap: 1rem;
+}

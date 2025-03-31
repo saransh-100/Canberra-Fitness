@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+    .container{
+        max-width: 90vw;
+    }
+    nav{
+        gap: 1.5rem;
+    }
+    .nav-items{
+        gap: 1rem;
+    }
+    .btn{
+        padding: 0.5rem 0.25rem;
+        width: 5rem;
+    }
+    .btn-2{
+        width: 6rem !important;
+        padding: 0.8rem 0.25rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        max-width: 95vw;
+    }
+    nav{
+        gap: 1rem;
+    }
+    .nav-items{
+        gap: 0.5rem;
+    }
+    .logo{
+        font-size: 1.25rem;
+    }
+    .top-left{
+        padding: 0;
+    }
+}
+
+@media (max-width: 1380px) {
+    .section-1{
+        overflow: hidden;
+    }
+    .section-2{
+        padding: 2rem ;
+    }
+    .section-2 p{
+        padding: 0;
+    }
+    .section-3{
+        padding: 2rem;
+    }
+    .gym{
+        width: 20rem;
+    }
+    .top-left{
+        width: 100%;
+    }
+    .mob-self-align{
+        align-self: center;
+    }
+    .flex-col-mob{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 370px) {
+    nav ul li a{
+        font-size: 0.8rem;
+    }
+}
